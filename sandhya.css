@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@1,500&display=swap');
+
+*{
+    font-family: 'Ysabeau Infant', sans-serif;
+    background-color: navy;
+    color:white;
+}
+
+.bgimage{
+    height:100vh;
+    background-size: cover;
+    position: relative;
+}
+.bgtext{
+    text-align:center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:white
+
+}
+.bgtitle{
+    font-size: 4rem;
+
+}
+.bgdesc{
+    font-size: 2rem;
+
+}
+.card{
+    cursor: pointer;
+    color:white;
+}
+.card:hover{
+    background-color: #d87093;
+    border: 3px solid #6e0012c7;
+}
+.bIcon{
+    width:1000%;
+    text-align: center;
+    font-size: 30px;
+}
+.img-fluid:hover{
+    border: 3px solid rgba(254, 4, 46, 0.781);
+    
+}
+.card-img-top{
+    height: 150px;
+}
